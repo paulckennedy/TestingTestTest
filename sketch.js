@@ -4,4 +4,11 @@ function sum(a,b){
   return a+b;
 };
 
-module.exports = sum;
+function prod(a,b){
+  return a*b;
+}
+
+module.exports = {
+  sum: sum,
+  prod: prod
+};
